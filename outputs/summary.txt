@@ -1,0 +1,23 @@
+===== SMPL LBS Lab Summary =====
+model_dir: D:\anaconda\envs\xiangmu\pythonProject1\models
+num_vertices: 6890
+num_faces: 13776
+num_joints(from lbs_weights): 24
+num_betas: 10
+visualized_joint_id: 18
+v_template shape: (1, 6890, 3)
+v_shaped shape: (1, 6890, 3)
+J_shaped shape: (1, 24, 3)
+v_posed shape: (1, 6890, 3)
+verts shape: (1, 6890, 3)
+manual_vs_official_mean_abs_error: 0.0000000000e+00
+manual_vs_official_max_abs_error: 0.0000000000e+00
+
+Output files:
+stage_a_template_weights.png
+all_joint_weights.png
+stage_b_shaped_joints.png
+stage_c_pose_offsets.png
+stage_d_lbs_result.png
+comparison_grid.png
+summary.txt
